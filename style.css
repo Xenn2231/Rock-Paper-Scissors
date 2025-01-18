@@ -40,3 +40,40 @@ img{vertical-align: none;}
 table{border-spacing: 0;}
   
 h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+    font-size: 40px;
+    text-align: center;
+}
+.btns {
+    background-color: #b98c48;
+    color: #fff;
+    border: 1px solid black;
+    max-width: 600px;
+    padding: 50px;
+    margin: 200px auto 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn {
+    width: 150px;
+    height: 100px;
+    background-color: #000000;
+}
+.btn:hover {
+    scale: 1.1;
+    transition: all 0.3s ease-out 0s;
+}
+.result {
+    margin-bottom: 100px;
+}
+.reload {
+    display: none;
+    padding: 30px 100px;
+    background-color: rgb(98, 202, 98);
+    color: rgb(210, 45, 45);
+    border: 1px solid black;
+}
